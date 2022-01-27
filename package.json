@@ -1,0 +1,17 @@
+{
+  "name": "com.getims.w-tabs",
+  "displayName": "W-Tabs",
+  "description": "W-Tabs can create up to 32 windows! Each window has buttons to switch through the entire list of windows",
+  "version": "0.1.3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Getims/W-Tabs.git"
+  },
+  "author": {
+    "name": "getims",
+    "email": "getims@yandex.ru",
+    "url": "https://github.com/getims"
+  },
+  "type": "tool"
+}
