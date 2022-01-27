@@ -81,7 +81,7 @@ namespace WTabs
             }
             EditorGUILayout.EndVertical();
 
-            GUILayout.Label("version 0.1.3", centeredLabelBold);
+            GUILayout.Label("version 0.1.4", centeredLabelBold);
         }
 
         private static void CreateMeta()
