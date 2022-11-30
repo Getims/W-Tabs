@@ -26,8 +26,8 @@ namespace WTabs
         private static void FindMeta()
         {
             //Debug.LogWarning("#W-Tabs: Find settings");
-            string typeName = typeof(WTabsSettings).FullName;
-            string[] guids = AssetDatabase.FindAssets("t:" + typeName, new string[] { "Assets", "Packages" });
+            string typeName = "t:" + typeof(WTabsSettings).FullName;
+            string[] guids = AssetDatabase.FindAssets(typeName);
             if (guids.Length > 0)
                 _windowsMeta = AssetDatabase.LoadAssetAtPath<WTabsSettings>(AssetDatabase.GUIDToAssetPath(guids[0]));
         }
